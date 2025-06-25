@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Step for run this project
+ 1. First create two project(ecommerce-app and foodpanda-app)
+ 2. The same app key must be used in both apps in the .env file.
+ 3. In both apps, you need to change SESSION_DRIVER=database to SESSION_DRIVER=cookie.
+ 4. In both apps, SESSION_DOMAIN=null needs to be changed to SESSION_DRIVER=.domain_name. 
+ 6. You need to run the composer update command.
+ 7. You need to run nmp i and npm run build or npm run dev commend. 
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
