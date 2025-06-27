@@ -14,6 +14,8 @@
  4. In both apps, SESSION_DOMAIN=null needs to be changed to SESSION_DRIVER=.domain_name. 
  6. You need to run the composer update command.
  7. You need to run nmp i and npm run build or npm run dev commend. 
+ 8. run php artisan migration:fresh --seed commed for seeding user into user table because i cnat add registraton sysem in this app.
+ 9. this app credential is user=user@example.com password=123456789
 
 ## About Laravel
 
